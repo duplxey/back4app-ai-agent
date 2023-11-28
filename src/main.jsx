@@ -4,11 +4,9 @@ import App from './App.jsx';
 import './index.css';
 import Parse from 'parse';
 
-const PARSE_APPLICATION_ID = import.meta.env.VITE_PARSE_APPLICATION_ID;
-const PARSE_JAVASCRIPT_KEY = import.meta.env.VITE_PARSE_JAVASCRIPT_KEY;
 Parse.initialize(
-  PARSE_APPLICATION_ID,
-  PARSE_JAVASCRIPT_KEY,
+  'X3d95t23NNs0w22KHLRWk2o7UnJIvbdZLmAl8uoV',
+  'bfNMmPOO9PvfuItctwqX71tAYJIXdcn6l2lwK9gq',
 );
 Parse.serverURL = 'https://parseapi.back4app.com/';
 
