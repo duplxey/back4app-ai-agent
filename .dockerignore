@@ -1,6 +1,5 @@
-node_modules
-dist
-.git
-.gitignore
-.dockerignore
-Dockerfile
+.idea/
+
+node_modules/
+out/
+build/
